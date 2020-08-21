@@ -35,16 +35,3 @@ p{
     text-align: right;
     font-size: 2.5em
 }
-
-@keyframes bop {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
-}
-
-body {
-    animation: bop 0.2s ease-in-out infinite;
-}

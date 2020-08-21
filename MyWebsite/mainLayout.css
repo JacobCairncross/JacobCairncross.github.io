@@ -1,0 +1,50 @@
+body{
+    margin:0;
+}
+
+p{
+    text-align: center;
+    font-size: 1.5em;
+}
+.sidePicture{
+    width:20%;
+    border-radius: 100%;
+}
+
+.middlePicture{
+    width:33%;
+    border-radius: 100%
+}
+
+#navBar{
+    background-color: #CCCCCC;
+    width: 100%;
+    text-align: right;
+    font-size: 3em;
+}
+
+#picturesOfMe{
+    display:inline-block;
+    text-align: center;
+}
+
+#imageLinks{
+    position: fixed;
+    bottom: 0px;
+    width:100%;
+    text-align: right;
+    font-size: 2.5em
+}
+
+@keyframes bop {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+body {
+    animation: bop 0.2s ease-in-out infinite;
+}
